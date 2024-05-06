@@ -1,0 +1,28 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 13, Failures: 8, Errors: 0, Skipped: 5, Time elapsed: 0.893 s <<< FAILURE! - in TestSuite
+launchApplication(KiranKabothula.Tests.ErrorValidationsTests)  Time elapsed: 0.425 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+
+tearDown(KiranKabothula.Tests.ErrorValidationsTests)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+launchApplication(KiranKabothula.Tests.ErrorValidationsTests)  Time elapsed: 0.006 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+
+tearDown(KiranKabothula.Tests.ErrorValidationsTests)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+launchApplication(KiranKabothula.Tests.SubmitOrderTest)  Time elapsed: 0.128 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+
+tearDown(KiranKabothula.Tests.SubmitOrderTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
+launchApplication(KiranKabothula.Tests.SubmitOrderTest)  Time elapsed: 0.001 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.manage()" because "this.driver" is null
+
+tearDown(KiranKabothula.Tests.SubmitOrderTest)  Time elapsed: 0 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.close()" because "this.driver" is null
+
